@@ -1,18 +1,11 @@
 
     var i;
     var audio = new Audio('audio/HappyBirthdaySong.mp3');
-    var arr = [
-        {
-            "url" : "videos/SampleVideo1.mp4"
-        },
-       {
-            "url" : "videos/SampleVideo2.mp4"
-       }
-       ,
-       {
-            "url" : "videos/SampleVideo3.mp4"
-       }
-    ];
+    // var arr = [
+    //     {
+    //         "url" : "videos/SampleVideo1.mp4"
+    //     }
+    // ];
 
     function open_curtain() {
         $("#curtain1").animate({width:20},1000);
