@@ -1,9 +1,9 @@
 
     var i;
-    // document.addEventListener('contextmenu', event => event.preventDefault());
-    // $(document).keydown(function(e){
-    //     e.preventDefault();
-    // });
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    $(document).keydown(function(e){
+        e.preventDefault();
+    });
     var audio = new Audio('audio/FinalSong.mp3');
 
     function open_curtain() {
